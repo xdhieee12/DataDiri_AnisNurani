@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About She ✨</title>
+    <!-- Menggunakan Font Google agar lebih estetik -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffe5ec, #ffc2d1);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            width: 100%;
+            max-width: 400px;
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 75, 110, 0.15);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff85a1;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+        }
+
+        /* Nama Pacar */
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #4a4a4a;
+            margin-bottom: 5px;
+        }
+
+        /* Panggilan Sayang / Judul Kecil */
+        .nickname {
+            font-family: 'Sacramento', cursive;
+            font-size: 26px;
+            color: #ff477e;
+            margin-bottom: 20px;
+        }
+
+        /* Section Biodata Singkat */
+        .bio-section {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            text-align: left;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .bio-item {
+            margin-bottom: 8px;
+        }
+        .bio-item strong {
+            color: #ff477e;
+        }
+
+        /* Container Tombol Sosmed */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* Gaya Tombol Sosmed */
+        .social-link {
+            display: block;
+            background: #ffffff;
+            color: #ff477e;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 15px;
+            border: 2px solid #ffb3c6;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        /* Efek pas tombol disentuh/di-hover */
+        .social-link:hover {
+            background: #ff477e;
+            color: #ffffff;
+            border-color: #ff477e;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(255, 75, 110, 0.3);
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 11px;
+            color: #a3a3a3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Ganti 'foto-pacar.jpg' dengan link foto atau file foto pacarmu -->
+        <img src="anis.jpeg" alt="Foto Pacar" class="profile-img">
+        
+        <div class="name">Anis Nurani</div>
+        <div class="nickname">Grow at Your Own Pace</div>
+
+        <!-- Bagian Data Diri / Fakta Seru -->
+        <div class="bio-section">
+            <div class="bio-item">🎂 <strong>Bday:</strong> Cianjur,23 Juli 2005 💕 </div>
+            <div class="bio-item">✨ <strong>Zodiak:</strong> Leo 🦁 </div>
+            <div class="bio-item">🎨 <strong>Hobi:</strong> Memasak&mendengarkan lagu🍳🎶</div>
+            <div class="bio-item">☕ <strong>Fav Food:</strong> Semua Tentang Matcha! ‧₊˚ 🍵 ⋅ </div>
+        </div>
+
+        <!-- Bagian Link Sosial Media -->
+        <div class="links-container">
+            <a href="https://www.instagram.com/anisnrn_23?igsh=MTF1bzg4OG1nM3Ztcg==" target="_blank" class="social-link">📸 Instagram</a>
+            <a href="https://www.tiktok.com/@its.ans23?_r=1&_t=ZS-96eDfy8O53p" target="_blank" class="social-link">🎵 TikTok</a>
+            <a href="https://www.facebook.com/share/1Ccb737MBh/" target="_blank" class="social-link"> 📘 Facebook </a>
+            <!-- Kamu bisa tambah tombol chat langsung ke kamu -->
+            <a href="https://wa.me/628343248536" target="_blank" class="social-link">💬 Chat WhatsApp Me</a>
+            <a href="https://wa.me/6289509991011" target="_blank" class="social-link">🧑🏻 Chat My Favorite Person💕</a>
+        </div>
+
+        <footer>Made with ❤️ by Yahdi</footer>
+    </div>
+
+</body>
+</html>
